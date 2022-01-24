@@ -22,6 +22,7 @@
 .logoParagraph {
     vertical-align: middle;
     color: lightgray;
+    margin:0;
     text-shadow: 2px 2px 3px black;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 75px;
@@ -33,7 +34,7 @@
     color: lightgray;
     text-shadow: 2px 2px 3px black;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
 }
 
@@ -140,90 +141,120 @@
     cursor: pointer;
 }
 
-input:focus {
-outline: none;
-  border: 4px solid rgb(21, 21, 194);
-}
-
-input {
+    input:focus {
     outline: none;
-    border: 4px solid gray;
-    box-shadow: 0 2px 10px black;
-}
+    border: 4px solid rgb(21, 21, 194);
+    }
 
-ul {
-list-style-type: none;
-margin: 0;
-padding: 0;
-top: 0px;
-position: fixed;
-width: 100%;
-overflow: hidden;
-background-color: rgb(35, 35, 66);
-font-family: Arial, Helvetica, sans-serif;
-font-size: 25px;
-font-weight: bold;
-border: 2px solid rgb(43, 48, 49);
-}
+    input {
+        outline: none;
+        border: 4px solid gray;
+        box-shadow: 0 2px 10px black;
+    }
 
-li {
-float: left;
-}
-
-li a {
-display: block;
-color: lightgray;
-text-align: center;
-padding: 14px 16px;
-}
-
-li a:hover:not(.active) {
-background-color: rgb(48, 55, 56);
-color: lightgray;
-}
-
-.active {
-background-color: rgb(48, 55, 56);
-color: lightgray;
-}
-
-::-webkit-scrollbar {
-width: 16px;
-}
-
-::-webkit-scrollbar-track {
-background: rgb(35, 40, 41); 
-}
-
-::-webkit-scrollbar-thumb {
-background: gray; 
-}
-
-:any-link {
-    text-decoration: none;
-}
-.resources {
-    margin-top: 25px;
-    font-size: 15px;
-    word-spacing: 15px;
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top: 0px;
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgb(35, 35, 66);
     font-family: Arial, Helvetica, sans-serif;
-    color: gray;
-}
+    font-size: 25px;
+    font-weight: bold;
+    border: 2px solid rgb(43, 48, 49);
+    }
 
-.res {
-    color: gray;
-}
+    li {
+    float: left;
+    }
 
-.res:hover {
-    text-decoration: underline;
-}
+    li a {
+    display: block;
+    color: lightgray;
+    text-align: center;
+    padding: 14px 16px;
+    }
 
-.body {
-    margin: 0px;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
+    li a:hover:not(.active) {
+    background-color: rgb(48, 55, 56);
+    color: lightgray;
+    }
+
+    .active {
+    background-color: rgb(48, 55, 56);
+    color: lightgray;
+    }
+
+    ::-webkit-scrollbar {
+    width: 16px;
+    }
+
+    ::-webkit-scrollbar-track {
+    background: rgb(35, 40, 41); 
+    }
+
+    ::-webkit-scrollbar-thumb {
+    background: gray; 
+    }
+
+    :any-link {
+        text-decoration: none;
+    }
+    .resources {
+        margin-top: 25px;
+        font-size: 15px;
+        word-spacing: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: gray;
+    }
+
+    .res {
+        color: gray;
+    }
+
+    .res:hover {
+        text-decoration: underline;
+    }
+
+    .body {
+        margin: 0px;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    .downloadContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .downloadButton {
+        background-color: rgb(66, 131, 66);
+        border: none;
+        border-radius: 15px;
+        color: lightgray;
+        font-weight: bold;
+        padding: 15px 10px;
+        font-size: 25px;
+        width: 300px;
+        box-shadow: 0 2px 10px rgb(50, 50, 50);
+        cursor: pointer;
+        text-align: center;
+        vertical-align: middle;
+        white-space: nowrap;
+    }
+
+    .downloadText {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        color: lightgray;
+        text-shadow: 1px 1px 2px gray;
+        font-weight: 100;
+    }
