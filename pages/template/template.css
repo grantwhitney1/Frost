@@ -17,7 +17,7 @@ ul {
     position: fixed;
     width: 100%;
     overflow: hidden;
-    background-color: darkblue;
+    background-color: rgb(35, 35, 66);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
     font-weight: bold;
@@ -46,19 +46,15 @@ ul {
     }
     
     ::-webkit-scrollbar {
-    width: 8px;
+    width: 16px;
     }
     
     ::-webkit-scrollbar-track {
-    background: rgb(133, 133, 194); 
+    background: rgb(35, 40, 41); 
     }
     
     ::-webkit-scrollbar-thumb {
-    background: darkblue; 
-    }
-    
-    ::-webkit-scrollbar-thumb:hover {
-    background: rgb(0, 0, 82); 
+    background: gray; 
     }
     
     :any-link {
