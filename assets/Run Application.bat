@@ -1,0 +1,1 @@
+start "" "../pages/home/home.html"
