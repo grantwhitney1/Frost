@@ -1,0 +1,95 @@
+body {
+    background-color: rgb(61, 69, 71);
+    margin: 0;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top: 0px;
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    background-color: darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    border: 2px solid rgb(43, 48, 49);
+    }
+    
+    li {
+    float: left;
+    }
+    
+    li a {
+    display: block;
+    color: lightgray;
+    text-align: center;
+    padding: 14px 16px;
+    }
+    
+    li a:hover:not(.active) {
+    background-color: rgb(48, 55, 56);
+    color: lightgray;
+    }
+    
+    .active {
+    background-color: rgb(48, 55, 56);
+    color: lightgray;
+    }
+    
+    ::-webkit-scrollbar {
+    width: 8px;
+    }
+    
+    ::-webkit-scrollbar-track {
+    background: rgb(133, 133, 194); 
+    }
+    
+    ::-webkit-scrollbar-thumb {
+    background: darkblue; 
+    }
+    
+    ::-webkit-scrollbar-thumb:hover {
+    background: rgb(0, 0, 82); 
+    }
+    
+    :any-link {
+        text-decoration: none;
+    }
+
+    .info {
+        background-color: rgb(48, 55, 56);
+        height: 300px;
+        text-align: center;
+        margin-top: 200px;
+        color: gray;
+    }
+
+    .lang {
+        padding: 150px 0px 25px 0px;
+        word-spacing: 15px;
+        font-size: 15;
+        color: inherit;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .resources {
+        margin-top: 25px;
+        font-size: 15px;
+        word-spacing: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: gray;
+    }
+
+    .res:hover {
+        text-decoration: underline;
+    }
