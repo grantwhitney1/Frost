@@ -19,22 +19,54 @@
         </p>
         <hr class="solid" style="width:70%; border: 1px solid rgb(48, 55, 56); margin-top: 100px; margin-bottom: 50px;">
     </div>
-    <div class="aboutContainer">
-        <div class="about">
-            <h1>What is Frost?</h1>
-            <hr class="solid" style="border: 1px solid rgb(48, 55, 56); width: 50%">
+    <div>
+        <div style="text-align: center;">
+            <button class="collapsible">What is Frost?</button>
+            <div class="content">
+                <p>
+                    Foo bar bizz fuzzFoo bar bizz fuzzFoo bar bizz fuzzFoo bar bizz
+                    fuzzFoo bar bizz fuzzFoo bar bizz fuzzFoo bar bizz fuzzFoo bar
+                    bizz fuzzFoo bar bizz fuzzFoo bar bizz fuzzFoo bar bizz fuzzFoo
+                    bar bizz fuzzFoo bar bizz fuzzFoo bar bizz fuzzFoo bar bizz fuzz
+                    Foo bar bizz fuzzFoo bar bizz fuzzFoo bar bizz fuzz
+                </p>
+            </div>
         </div>
-        <div class="about">
-            <h1>Our objective</h1>
-            <hr class="solid" style="border: 1px solid rgb(48, 55, 56); width: 50%">
+        <div style="text-align: center;">
+            <button class="collapsible">Our objective</button>
+            <div class="content">
+                <p>
+                    Foo bar bizz fuzzFoo bar bizz fuzzFoo bar bizz fuzzFoo bar bizz
+                    fuzzFoo bar bizz fuzzFoo bar bizz fuzzFoo bar bizz fuzzFoo bar
+                    bizz fuzzFoo bar bizz fuzzFoo bar bizz fuzzFoo bar bizz fuzzFoo
+                    bar bizz fuzzFoo bar bizz fuzzFoo bar bizz fuzzFoo bar bizz fuzz
+                    Foo bar bizz fuzzFoo bar bizz fuzzFoo bar bizz fuzz
+                </p>
+            </div>
         </div>
-        <div class="about">
-            <h1>How it's done</h1>
-            <hr class="solid" style="border: 1px solid rgb(48, 55, 56); width: 50%">
+        <div style="text-align: center;">
+            <button class="collapsible">How it's done</button>
+            <div class="content">
+                <p>
+                    Foo bar bizz fuzzFoo bar bizz fuzzFoo bar bizz fuzzFoo bar bizz
+                    fuzzFoo bar bizz fuzzFoo bar bizz fuzzFoo bar bizz fuzzFoo bar
+                    bizz fuzzFoo bar bizz fuzzFoo bar bizz fuzzFoo bar bizz fuzzFoo
+                    bar bizz fuzzFoo bar bizz fuzzFoo bar bizz fuzzFoo bar bizz fuzz
+                    Foo bar bizz fuzzFoo bar bizz fuzzFoo bar bizz fuzz
+                </p>
+            </div>
         </div>
-        <div class="about">
-            <h1>Join our team</h1>
-            <hr class="solid" style="border: 1px solid rgb(48, 55, 56); width: 50%">
+        <div style="text-align: center;">
+            <button class="collapsible">Join our team</button>
+            <div class="content">
+                <p>
+                    Foo bar bizz fuzzFoo bar bizz fuzzFoo bar bizz fuzzFoo bar bizz
+                    fuzzFoo bar bizz fuzzFoo bar bizz fuzzFoo bar bizz fuzzFoo bar
+                    bizz fuzzFoo bar bizz fuzzFoo bar bizz fuzzFoo bar bizz fuzzFoo
+                    bar bizz fuzzFoo bar bizz fuzzFoo bar bizz fuzzFoo bar bizz fuzz
+                    Foo bar bizz fuzzFoo bar bizz fuzzFoo bar bizz fuzz
+                </p>
+            </div>
         </div>
     </div>
     <div class="info">
@@ -68,3 +100,18 @@
         </div>
     </div>
 </body>
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+</script>
