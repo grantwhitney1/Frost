@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(61, 69, 71);
+    background-color: rgb(38, 51, 54);
     margin: 0;
     text-align: center;
     -webkit-touch-callout: none;
@@ -18,11 +18,10 @@ body {
     position: fixed;
     width: 100%;
     overflow: hidden;
-    background-color: rgb(35, 35, 66);
+    background-color: rgb(3,36,43);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
     font-weight: bold;
-    border: 2px solid rgb(43, 48, 49);
     }
     
     li {
@@ -37,12 +36,12 @@ body {
     }
     
     li a:hover:not(.active) {
-    background-color: rgb(48, 55, 56);
+    background-color: rgb(32, 47, 49);
     color: lightgray;
     }
     
     .active {
-    background-color: rgb(48, 55, 56);
+    background-color: rgb(32, 47, 49);
     color: lightgray;
     }
     
@@ -63,7 +62,7 @@ body {
     }
 
     .info {
-        background-color: rgb(48, 55, 56);
+        background-color: rgb(32, 47, 49);
         height: 300px;
         text-align: center;
         margin-top: 200px;
@@ -119,21 +118,21 @@ body {
     .collapsible {
         font-size: 40px;
         font-family: Arial, Helvetica, sans-serif;
-        background-color: rgb(61, 69, 71);
+        background-color: rgb(38, 51, 54);
         color: lightgray;
         text-shadow: 2px 2px 3px black;
         text-align: center;
         width: 60%;
         padding: 20px 0px 20px 0px;
         border-style: none none solid none;
-        border-color: rgb(48, 55, 56);
+        border-color: rgb(32, 47, 49);
         border-width: 3px;
         cursor: pointer;
     }
 
     .collapsible:hover {
-        background-color: rgb(48, 55, 56);
-        border-color: rgb(43, 48, 49);
+        background-color: rgb(32, 47, 49);
+        border-color: rgb(30, 44, 46);
     }
 
     .content {
