@@ -51,7 +51,7 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
     color: lightgray;
-    text-shadow: 1px 1px 2px gray;
+    text-shadow: 1px 1px 2px black;
     width: 60%;
     padding: 0px 0px 0px 140px;
 }
@@ -256,6 +256,6 @@
         font-family: Arial, Helvetica, sans-serif;
         font-size: 25px;
         color: lightgray;
-        text-shadow: 1px 1px 2px gray;
+        text-shadow: 1px 1px 2px black;
         font-weight: 100;
     }
