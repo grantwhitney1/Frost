@@ -146,3 +146,14 @@ body {
         text-align: justify;
         text-shadow: 2px 2px 3px black;
     }
+
+    .contact {
+        color: lightgray;
+        text-shadow: 2px 2px 3px black;
+        font-size: 30px;
+        margin: 25px 0px 25px 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
